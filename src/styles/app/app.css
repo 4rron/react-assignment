@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+html {
+  overflow: hidden;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f3f3f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.content-window {
+  background-color: #ffffff;
+  padding: 20px;
+  padding-top: 1em;
+  margin-top: 7em;
+  margin-bottom: 1em;
+  margin-left: 20px;
+  border-radius: .5em;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  z-index: 30;
+}
+
+#header {
+  padding: 1em 0 1em 30px;
+}
+
+header {
+  position: absolute;
+  display: block;
+  top: 0;
+  font-size: 2em;
+  font-weight: bolder;
+  overflow: hidden;
+  background: #fdfdfd;
+  height: 3em;
+  width: 100%;
+  max-width: 100%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  z-index: 100;
+}
+/*# sourceMappingURL=app.css.map */
