@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+.feed-item {
+  display: block;
+  background-color: #ffffff;
+  padding: 20px;
+  padding-top: 1em;
+  border-radius: .5em;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  z-index: 30;
+  margin-bottom: 1em;
+  width: 80%;
+  margin-left: 20px;
+}
+
+.no-link {
+  background-color: #fdfdfd;
+  opacity: 50%;
+  cursor: not-allowed;
+}
+
+.has-link {
+  background-color: #23395d;
+  -webkit-transition: background-color .3s ease;
+  transition: background-color .3s ease;
+}
+
+.has-link:hover {
+  background-color: #ff4f1f !important;
+  -webkit-transition: background-color .3s ease;
+  transition: background-color .3s ease;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: #23395d;
+}
+
+a:visited .has-link {
+  background-color: #3b90aa;
+}
+
+a:active .has-link {
+  color: #23255d;
+  background-color: #e75e28;
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.12) 0px 3px 6px, rgba(0, 0, 0, 0.18) 0px 3px 6px;
+          box-shadow: rgba(0, 0, 0, 0.12) 0px 3px 6px, rgba(0, 0, 0, 0.18) 0px 3px 6px;
+}
+
+.feed-title {
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+
+.feed-time, .feed-author, .feed-points {
+  display: inline;
+  font-family: "Space Mono", monospace;
+  opacity: 80%;
+}
+/*# sourceMappingURL=feed.css.map */

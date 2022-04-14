@@ -4,10 +4,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './styles/index/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Recent from './components/feed/recent';
-import Home from './components/home';
-import Settings from './components/settings';
-import User from './components/user'
+import Recent from './components/pages/feed/recent';
+import Home from './components/pages/home';
+import Settings from './components/pages/settings';
+import User from './components/pages/user'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+$space-mono: 'Space Mono', monospace;
+    
+.feed-item
+    display: block
+    background-color: #ffffff
+    padding: 20px
+    padding-top: 1em
+    border-radius: .5em
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    z-index: 30
+    margin-bottom: 1em
+    width: 80%
+    margin-left: 20px    
+
+.no-link
+    background-color: #fdfdfd
+    opacity: 50%
+    cursor: not-allowed
+
+.has-link
+    background-color: rgb(35,57,93)
+    transition: background-color .3s ease
+    
+.has-link:hover
+    background-color: rgb(255,79,31)!important
+    transition: background-color .3s ease
+
+a:link
+    text-decoration: none
+    color: white
+
+
+a:visited
+    color: rgb(35,57,93)
+    .has-link
+        background-color: rgb(59, 144, 170)
+
+a:active
+    .has-link
+        color: rgb(35,37,93)
+        background-color: rgb(231, 94, 40)
+        transform: scale(.98)
+        box-shadow: rgba(0, -2, 0, 0.12) 0px 3px 6px, rgba(0, -2, 0, 0.18) 0px 3px 6px;
+        
+.feed-title
+    font-weight: bolder
+    font-size: 1.2em
+
+.feed-time, .feed-author, .feed-points
+    display: inline
+    font-family: $space-mono
+    opacity: 80%
