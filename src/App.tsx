@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom'; // Added for page routing/links
 import './styles/app/app.css';
-import Navbar from './components/navbar';
+import Navbar from './components/pages/navbar';
 
 function App() {
   return (

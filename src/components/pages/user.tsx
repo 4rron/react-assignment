@@ -1,4 +1,4 @@
-import setHeader from "./setHeader";
+import setHeader from "./feed/setHeader";
 
 function User(){
     setHeader("User Profile");

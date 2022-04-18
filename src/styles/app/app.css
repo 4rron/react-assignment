@@ -16,16 +16,15 @@ body {
 }
 
 .content-window {
-  background-color: #ffffff;
-  padding: 20px;
-  padding-top: 1em;
-  margin-top: 7em;
-  margin-bottom: 1em;
-  margin-left: 20px;
-  border-radius: .5em;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  z-index: 30;
+  position: absolute;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  left: 0;
+  top: 6em;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 #header {
